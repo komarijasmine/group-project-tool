@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div class="header">
+  <h1>AP Biology</h1>
+</div>
+
+<title>Page Title</title>
+</head>
+
+<style>
+   .button {
+      background-color: #D9D9D9; /* Orange */
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-family: Helvetica;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button1 {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        left: 50px;
+        top: 200px;
+        font-family: Helvetica;
+    }
+
+    .button2 {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        left: 50px;
+        top: 275px;
+        font-family: Helvetica;
+    }
+
+    .button3 {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        left: 50px;
+        top: 350px;
+        font-family: Helvetica;
+    }
+
+    .header {
+        padding: 1px;
+        text-align: left;
+        background: #DF7B32;
+        color: white;
+        font-size: 10px;
+        font-family: Helvetica;
+    }
+    .h1 {
+        text-align: center;
+        font-family: Helvetica;
+    }
+
+    </style>
+    </head>
+<body>
+
+ <div class="h1">
+     <h1>Welcome to Mr. Johnson's AP Biology!</h1>
+      </div>
+<p style= "color:orange";>this is my revenge towards all my traumatic team projects. YAY. </p><font-family:courier;">This is a paragraph.</p>
+<button class="button button1"></class>Projects</button>
+<button class="button button2"></class>People</button>
+<button class="button button3"></class>Grades</button>
+
+<a href= "https://heady-faucet-3c5.notion.site/design-document-f2b482c8b8a141db9cf32ce7d09bd428"> This is the plan for this project. </a>
+<img src="">
+
+
+</body>
+</html>
