@@ -108,16 +108,13 @@
 <body>
 
  <div class="h1">
-     <h1>Welcome to Mr. Johnson's AP Biology!</h1>
+     <h1>Gradebook</h1>
       </div>
 
 
 <button class="button button1"></class>Projects</button>
-    <a href="projectpage.html"></a>
-
 <button class="button button2"></class>People</button>
-<a href="gradebook.html">
-<button class="button button3"></class>Grades</button> </a>
+<button class="button button3"></class>Grades</button>
 <div class="rectangle"></div>
 <div class="circle"></div>
 <div class="h2">

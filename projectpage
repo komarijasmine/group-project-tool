@@ -25,10 +25,11 @@
     
     .button1 {
         width: 200px;
+        background-color: #DF7B32; /* Orange */
         height: 60px;
         position: absolute;
         left: 50px;
-        top: 200px;
+        top: 150px;
         font-family: Helvetica;
     }
 
@@ -37,7 +38,7 @@
         height: 60px;
         position: absolute;
         left: 50px;
-        top: 275px;
+        top: 225px;
         font-family: Helvetica;
     }
 
@@ -46,7 +47,7 @@
         height: 60px;
         position: absolute;
         left: 50px;
-        top: 350px;
+        top: 300px;
         font-family: Helvetica;
     }
 
@@ -71,6 +72,8 @@
         border-color: black;
         border-style: solid;
         background-color: #FFFFFF;
+        overflow-wrap: break-word;
+    
     }   
     .h2 {
         font-family: Helvetica;
@@ -96,39 +99,25 @@
         left: 375px;
     }
 
-    .link {
-        font-family: Helvetica;
-        position: absolute;
-        top: 320px;
-        left: 375px
-    }
 
     </style>
     </head>
 <body>
 
- <div class="h1">
-     <h1>Welcome to Mr. Johnson's AP Biology!</h1>
-      </div>
-
-
+<div class="h1"> <h1>Cell Membrane Project</h1>
 <button class="button button1"></class>Projects</button>
-    <a href="projectpage.html"></a>
-
 <button class="button button2"></class>People</button>
-<a href="gradebook.html">
-<button class="button button3"></class>Grades</button> </a>
+<button class="button button3"></class>Grades</button>
 <div class="rectangle"></div>
 <div class="circle"></div>
 <div class="h2">
     <h2> Anthony Johnson</h2>
 </div>
 <div class="p">
-    <p style= "font-family: Helvetica;" ;> hello? OMG ITS WORKING YAY!!!!!</p>
+    <p style= "font-family: Helvetica; text-align: left; text-wrap: wrap;"> hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!!hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! hello? OMG ITS WORKING YAY!!!!! 
+            <a href= "https://heady-faucet-3c5.notion.site/design-document-f2b482c8b8a141db9cf32ce7d09bd428"> This is the plan for this project. </a>
+    </p>
 </div>
-<div class="link">
-    <a href= "https://heady-faucet-3c5.notion.site/design-document-f2b482c8b8a141db9cf32ce7d09bd428"> This is the plan for this project. </a>
-     </div>
 
 <img src="">
 
