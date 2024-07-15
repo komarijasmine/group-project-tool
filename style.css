@@ -11,9 +11,6 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-.commonbutton {
     width: 200px;
     height: 60px;
     position: absolute;
@@ -22,17 +19,29 @@
 }
 
 .button1 {
-    top: 200px;
+    top: 125px;
 
 }
 
 .button2 {
-    top: 275px;
+    top: 205px;
 
 }
 
 .button3 {
-    top: 350px;
+    top: 285px;
+}
+
+.button4 {
+    top: 365px;
+}
+
+.button5 {
+    top: 445px;
+}
+
+.button6 {
+    top: 525px;
 }
 
 .header {
@@ -45,8 +54,18 @@
 }
 
 .h1 {
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 350px;
     font-family: Helvetica;
+}
+
+.grouph1 {
+    text-align: left;
+    font-family: Helvetica;
+    top: 300px;
+    left: 500px;
 }
 
 .rectangle {
@@ -60,14 +79,40 @@
     background-color: #FFFFFF;
 }
 
+.descrec {
+    height: 800px;
+    width: 1050px;
+    position: absolute;
+    border-top: 5px;
+    left: 350px;
+    top: 200px;
+    border-color: #DF7B32;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
 .h2 {
     font-family: Helvetica;
     font-size: 12px;
     position: absolute;
-    left: 450px;
-    top: 215px;
 
 }
+
+.h2pos1 {
+    left: 380px;
+    top: 215px;
+}
+
+.h2pos2 {
+    left: 800px;
+    top: 215px;
+}
+
+.h2pos3 {
+    left: 380px;
+    top: 260px;
+}
+
 
 .circle {
     height: 50px;
@@ -82,8 +127,26 @@
 
 .p {
     position: absolute;
-    top: 280px;
-    left: 375px;
+    top: 215px;
+    left: 500px;
+}
+
+.p1 {
+    position: absolute;
+    top: 215px;
+    left: 930px; 
+}
+
+.p2 {
+    position: absolute;
+    top: 260px;
+    left: 550px;
+}
+
+.body {
+    position: absolute;
+    top: 320px;
+    left: 380px;
 }
 
 .link {
