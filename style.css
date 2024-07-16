@@ -1,8 +1,4 @@
 .button {
-    background-color: #D9D9D9;
-    /* Orange */
-    border: none;
-    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -16,6 +12,19 @@
     position: absolute;
     left: 50px;
     font-family: Helvetica;
+}
+.offbutton {
+    background-color: #D9D9D9;
+    /* Orange */
+    border: none;
+    color: black;
+}
+
+.onbutton {
+    background-color: #DF7B32;
+    /* Orange */
+    border: none;
+    color: white;
 }
 
 .button1 {
@@ -56,9 +65,17 @@
 .h1 {
     text-align: left;
     position: absolute;
+    font-family: Helvetica;
+}
+
+.pagetitle {
     top: 100px;
     left: 350px;
-    font-family: Helvetica;
+}
+
+.hi-priority {
+    top: 200px;
+    left: 930px;
 }
 
 .grouph1 {
@@ -77,6 +94,28 @@
     border-color: black;
     border-style: solid;
     background-color: #FFFFFF;
+}
+
+.task {
+    height: 50px;
+    width: 450px;
+    position: absolute;
+    background-color: #555;
+}
+
+.t1 {
+    left: 930px;
+    top: 250px;
+}
+
+.t2 {
+    left: 930px;
+    top: 320px;
+}
+
+.t3 {
+    left: 930px;
+    top: 390px;
 }
 
 .descrec {
@@ -113,6 +152,18 @@
     top: 260px;
 }
 
+.progress {
+    left: 630px;
+    top: 230px;
+}
+
+.vl {
+    border-left: 3px solid black;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+  }
 
 .circle {
     height: 50px;
@@ -122,6 +173,17 @@
     position: absolute;
     left: 375px;
     top: 225px;
+
+}
+
+.piechart {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+    left: 375px;
+    top: 200px;
 
 }
 
