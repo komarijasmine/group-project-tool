@@ -138,18 +138,26 @@
 }
 
 .h2pos1 {
-    left: 380px;
-    top: 215px;
+    left: 0%;
+    padding-left: 3%;
+    top: 0%;
+    padding-top: 1%;
 }
 
 .h2pos2 {
-    left: 800px;
-    top: 215px;
+    left: 25%;
+    padding-left: 10%;
+    top: 0%;
+    padding-top: 1%;
+
 }
 
 .h2pos3 {
-    left: 380px;
-    top: 260px;
+    left: 0%;
+    padding-left: 3%;
+    top: 35%;
+    padding-top: 1%;
+
 }
 
 .progress {
@@ -187,22 +195,16 @@
 
 }
 
-.p {
-    position: absolute;
-    top: 215px;
-    left: 500px;
-}
-
 .p1 {
-    position: absolute;
-    top: 215px;
-    left: 930px; 
+    
 }
 
 .p2 {
-    position: absolute;
-    top: 260px;
-    left: 550px;
+    
+}
+
+.p3 {
+    
 }
 
 .body {
@@ -216,4 +218,24 @@
     position: absolute;
     top: 320px;
     left: 375px
+}
+
+.todo_section {
+    height: 300px;
+    width: 1050px;
+    position: absolute;
+    border-top: 5px;
+    border-color: #DF7B32;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+.section1 {
+    left: 350px;
+    top: 200px;
+}
+
+.section2 {
+    left: 350px;
+    top: 525px;
 }
