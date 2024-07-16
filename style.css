@@ -133,7 +133,6 @@
 .h2 {
     font-family: Helvetica;
     font-size: 12px;
-    position: absolute;
 
 }
 
@@ -220,22 +219,18 @@
     left: 375px
 }
 
+#todo_sections {
+    left: 350px;
+    top: 200px;
+    position: absolute;
+}
+
 .todo_section {
     height: 300px;
     width: 1050px;
-    position: absolute;
     border-top: 5px;
     border-color: #DF7B32;
     border-style: solid;
     background-color: #FFFFFF;
-}
-
-.section1 {
-    left: 350px;
-    top: 200px;
-}
-
-.section2 {
-    left: 350px;
-    top: 525px;
+    margin-bottom: 50px;
 }
