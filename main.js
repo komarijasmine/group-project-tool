@@ -6,5 +6,3 @@ function addInnerDiv() {
     container.innerHTML = "<div class='todo_section' id='todo_" + nextID +"'></div>" + todo_list
     nextID += 1
 }
-
-
