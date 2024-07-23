@@ -2,20 +2,11 @@
 <html>
 
 <head>
-<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-=======
->>>>>>> parent of 807eac0 (tried out the grid system + fixed the commonbutton stuff)
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <div class="header">
         <h1>AP Biology</h1>
     </div>
@@ -25,57 +16,52 @@
 
 <body>
 
-    <div class="h1 pagetitle">
-        <h1>To-do</h1>
-    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <a href="project_description.html">
+                    <button class="btn btn-light">Description</button></a>
 
-    <a href="project_description.html">
-        <button class="button onbutton button1"></class>Description</button> </a>
+                <a href="dashboard.html">
+                    <button class="btn btn-light">Dashboard</button></a>
 
-    <a href="dashboard.html">
-        <button class="button offbutton button2"></class>Dashboard</button></a>
+                <a href="to_do.html">
+                    <button class="btn btn-light selected">To-do</button></a>
 
-    <a href="to_do.html">
-        <button class="button offbutton button3"></class>To-do</button> </a>
+                <a href="resources.html">
+                    <button class="btn btn-light">Resources</button></a>
 
-    <a href="resources.html">
-        <button class="button offbutton button4"></class>Resources</button></a>
-
-    <a href="mypage.html">
-        <button class="button offbutton button5"></class>My Page</button></a>
-
-
-    <div id="todo_sections">
-        <div class="todo_section" id="todo_1">
-            <div class="h2 h2pos1">
-                <h2>Due Date</h2>
-                <div class="p1">
-                    <p style="font-family: Helvetica;" ;> hello? OMG ITS WORKING YAY!!!!!</p>
-                </div>
+                <a href="mypage.html">
+                    <button class="btn btn-light">My Page</button></a>
             </div>
-
-            <div class="h2 h2pos2">
-                <h2>Points</h2>
-                <div class="p2">
-                    <p style="font-family: Helvetica;" ;> 100 (20% of the class)</p>
+            <div class="col-md-10">
+                <div class="h1">
+                    <h1>To-do</h1>
                 </div>
-            </div>
-
-            
-            <div class="h2 h2pos3">
-                <h2>Grading Criteria</h2>
-                <div class="p3">
-                    <p style="font-family: Helvetica;" ;> 70:30 (group performance : individual process)</p>
+                <div id="todo_sections">
+                    <div class="todo_section" id="todo_0">
+                        <h2>Planning</h2>
+                        <br><input type='checkbox'>
+                        <label>Task Description</label>
+                        <br><input type='checkbox'>
+                        <label>Task Description</label>
+                        <br><input type='checkbox'>
+                        <label>Task Description</label>
+                        <br><input type='checkbox'>
+                        <label>Task Description</label>
+                        <br>
+                        <input type="text" id="new-task-text" placeholder="New task description">
+                        <button onclick="addTask('planning')">Add Task</button>
+                    </div>
                 </div>
-
+                <button class="button onbutton todo_section_title" id="add_todo_section" onclick="addTodoSection()"></class>+ Add
+                    Section</button>
             </div>
-
         </div>
-        <div class="todo_section" id="todo_0"></div>
-
     </div>
 
-    <button class="button offbutton button6" id="testbutton" onclick="addInnerDiv()"></class>Projects</button>
+
+
 
 </body>
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cellular Organisms Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cellular Organisms Project</h1>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Description</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">To-do</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li class="active"><a href="#">My Page</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section class="todos">
+                <h2>Your To-dos</h2>
+                <ul>
+                    <li><input type="checkbox"> Brainstorm potential ideas</li>
+                    <li><input type="checkbox"> Brainstorm potential ideas</li>
+                    <li><input type="checkbox"> Brainstorm potential ideas</li>
+                </ul>
+            </section>
+            <section class="reminders">
+                <h2>Your Reminders</h2>
+                <ul>
+                    <li>👤 Don’t forget to fill out your self-report form for today’s class!</li>
+                    <li>📢 Your task “research about mitochondria” is due in <strong>2 days!</strong></li>
+                    <li>📅 Your next meeting “meeting” is <strong>tomorrow from 17:00-!</strong></li>
+                </ul>
+            </section>
+            <section class="self-report">
+                <h2>Self-Report Progress Check</h2>
+                <form action="#">
+                    <label for="task-today">Task you worked on today</label>
+                    <input type="text" id="task-today" name="task-today">
+                    <label for="task-next">Tasks to get done by next meeting</label>
+                    <input type="text" id="task-next" name="task-next">
+                    <label for="comments">Any comments, questions, concerns</label>
+                    <textarea id="comments" name="comments"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
