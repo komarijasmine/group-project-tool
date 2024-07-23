@@ -21,12 +21,36 @@ function addTodoSection() {
 function addTask(categoryId) {
     var category = document.getElementById(categoryId);
     var newTaskText = document.getElementById('new-task-text').value;
+    if (newTaskText == "") {
+        return
+    }
     var newTaskHtml = `
-        <input type="checkbox">
+        <br><input type="checkbox">
             <label>${newTaskText}</label>
-        </div>`;
+        `;
     category.innerHTML += newTaskHtml;
     document.getElementById('new-task-text').value = "";
 }
 
+function testA (x) {
+    var y = testB(x)
+    console.log("testA = " + y) // 2
+}
 
+function testB (x) {
+    x = x + 1 // 2 
+    var y = testC(x) 
+    console.log("testB = " + y) // testB = 3
+    return y
+}
+
+function testC (x) {
+    var y = x + 1 // 3 
+    console.log("testC = " + y) // testC = 3
+    return
+}
+
+/*
+testB = 3
+testA = 2
+*/

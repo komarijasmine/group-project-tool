@@ -41,17 +41,14 @@
                 <div id="todo_sections">
                     <div class="todo_section" id="todo_0">
                         <h2>Planning</h2>
-                        <br><input type='checkbox'>
-                        <label>Task Description</label>
-                        <br><input type='checkbox'>
-                        <label>Task Description</label>
-                        <br><input type='checkbox'>
-                        <label>Task Description</label>
-                        <br><input type='checkbox'>
-                        <label>Task Description</label>
-                        <br>
+
+                        <div id="tasks_0">
+                            <br><input type='checkbox'>
+                            <label>Task Description</label>
+                        </div>
+                        
                         <input type="text" id="new-task-text" placeholder="New task description">
-                        <button onclick="addTask('planning')">Add Task</button>
+                        <button onclick="addTask('tasks_0')">Add Task</button>
                     </div>
                 </div>
                 <button class="button onbutton todo_section_title" id="add_todo_section" onclick="addTodoSection()"></class>+ Add
