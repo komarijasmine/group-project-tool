@@ -47,7 +47,7 @@ function testB (x) {
 function testC (x) {
     var y = x + 1 // 3 
     console.log("testC = " + y) // testC = 3
-    return
+    return y
 }
 
 /*
